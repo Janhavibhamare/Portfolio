@@ -1,0 +1,23 @@
+import Nevbar from "./components/NavBar/nevbar";
+import Intro from "./components/Intro/intro";
+import { Skills } from "./components/Skills/skills";
+import Works from "./components/Works/works";
+import Education from "./components/Education/Education";
+import Contact from "./components/Contact/contact";
+import Footer from "./components/Footer/footer";
+
+function App() {
+  return (
+    <div className="App">
+      <Nevbar/>  
+      <Intro/>
+      <Skills/>   
+      <Works/>
+      <Education/>
+      <Contact/>
+      <Footer/>
+    </div>
+  );
+}
+
+export default App;

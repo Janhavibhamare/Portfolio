@@ -1,0 +1,49 @@
+.education-section {
+  padding: 30px 20px;
+  background-color: #1e1e1e;  /* ✅ Dark background to match other sections */
+  font-family: 'Poppins', sans-serif;
+  color: #f3f4f6; /* Default light text color */
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: #ffffff; /* ✅ Title is pure white */
+}
+
+.education-card {
+  background-color: #2c2c2c;
+  border-left: 4px solid #4CAF50;
+  padding: 24px;
+  margin: 0 auto 30px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(255, 255, 255, 0.05);
+  max-width: 960px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.education-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(76, 175, 80, 0.2); /* greenish glow */
+}
+
+.education-card h3 {
+  margin: 0 0 10px;
+  color: #ffffff;  /* ✅ Heading is white */
+  font-size: 1.25rem;
+}
+
+.education-card p {
+  margin: 4px 0;
+  color: #d1d5db;  /* ✅ Soft white */
+}
+
+.desc {
+  margin-top: 10px;
+  font-style: italic;
+  color: #9ca3af;  /* ✅ Muted tone for description */
+}
