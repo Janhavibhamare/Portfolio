@@ -2,12 +2,6 @@
 
 Hi! I'm **Janhavi Bhamare**, and this is the source code for my personal portfolio website. It showcases my skills, projects, and ways to contact me.
 
-## 🚀 Live Preview
-
-🔗 [Visit My Portfolio](portfolio-khaki-beta-89.vercel.app)
-
----
-
 ## 📸 Overview
 
 The website contains:
